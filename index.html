@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+} 
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+  #navi{
+    width:100vw;
+    height:50px;
+    background-color:lightgreen;
+    font-size:20px;
+    font-family:'Times New Roman';
+    text-align: right;
+  }
+  #navi nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+  a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+  }
+  .portfolio{
+     margin: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      height: 350px;
+      border: 5px solid black;
+      border-radius: 20px;
+  }
+  
+  .portfolio img{
+    width:300px;
+    border-radius:50px;
+    max-width: 100%;
+    border-style:dotted;
+    border-width: 5px;
+    border-color:black;
+    margin:50px;
+  }
+  .intro{
+  background-color: #9aaea6;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: black;
+  }
+  .skills{
+    background-color:#B7DCCA;
+    height:250px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    font-size:18px;
+    border-radius:10px;
+    margin-top:40px;
+    margin-right:5px;
+    margin-left:5px;
+  }
+  .pl{
+    flex: 1 1 250px;
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+  }
+  #p{
+    background-color:#758A80;
+    margin:0px;
+  }
+  .web{
+     flex: 1 1 250px;
+      /*max-width: 350px;*/
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 5px;
+      color: white;
+  }
+  #w{
+    background-color:#758A80;
+  }
+  .dbms{
+    flex: 1 1 350px;
+      /*max-width: 350px;*/
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+    }
+  #d{
+    background-color:#758A80;
+  }
+  .a1{
+    background-color:white;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  .about{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    font-size:20px;
+    font-family:'Times new roman'
+  }
+  .a{
+     display:flex;
+     flex:1;
+     align-items: center;
+     background-color:#A4D5BB;
+     border-radius:20px;
+  }
+  .con{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding: 20px;
+  }
+  a:hover{
+     background-color:green;
+      padding: 5px;
+      border-radius: 5px;
+  }
+  </style>
+</head>
+<body>
+  <div id="navi">
+  <nav>
+    <a href="#port">Home</a>
+    <a href="#skill">skills</a>
+    <a href="#abo">about</a>
+    <a href="#cont">contact</a>
+  </nav>
+  </div>
+  <a name="port"> <div class="portfolio"></a>
+   <img class="scale-up-center" src="imageportfolio.jpg">
+ <div class="intro"><h2>Hi I am Shanmuga priya</h2><h1>Web developer</h1><i> I am web developer</i></div></div>
+ 
+
+ <a name="skill">  <div class="skills" class="shadow-pop-tl "></a>
+   <div class="pl"></a><div id="p"><p>Programming languages</p></div><i>I learned python and java as a part of my college course So I can able to do a basic program of these languages i can asure as soon as i will learn the whole language .</i></div>
+   <div class="web"><div id="w"><p>Web development</p></div><i>I learned web development as a part of my college course but later I done a internship and project on that so i can able to develope a website</i></div>
+   <div class="dbms"><div id="d"><p>Database management</div><i>I learned Database management and Big data technologies.I know objectives of these course</i></div>
+ </div>
+ <div class="a1">
+    <div class="a"><h1 >About me</h1></div>
+ <a name="abo" ><div class="about">
+   </a><h4><b>I am a student of bachelor of computer application and currently i am doing my internship in joy innovations.The topic is based on full stack webdevelopment.My CGPA is 8.69</b></h4>
+ </div>
+ </div>
+ <a name="cont"> <div class="con"></a>
+   <h2>Contact</h2>
+   <h3>Phone number:+91 7358078699</h3>
+   <h3>Email:shanmu060606@gmail.com</h3>
+   <h3></h3>
+   <a href="https://github.com/settings/emails"><i class="fab fa-github"></i></a>
+    <a href="mailto: shanmu060606@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.google.com/search?q=linkedin+login&oq=linkedin&gs_lcr=EgZjaHJvbWUqCQgCEAAYExiABDCAAQABiPAjIPCEQLhgTGMcBGNEDGIAEMgkIAhAAGBMYgAQyCQgDEAAYExiABDIJCAQQABgTGIAEMgkIBRAAGBMYgAQyBggGEEUYPDIPCAcQLhgTGMcBGNEDGIAEMgkICBAAGBMYgAQyCQgJEAAYExiABDIJCAoQABgTGIAEMgkICxAAGBMYgAQyCQgMEAAYExiABDIJCA0QABgTGIAEMgkIDhAAGBMYgATSAQgzMDc5ajBqNKgCArACAQ&client=ms-android-oppo-terr1-rso2&sourceid=chrome-mobile&ie=UTF-8"><i class="fa fa-linkedin-square"></i></a>
+ </div>
+</body>
+</html>
